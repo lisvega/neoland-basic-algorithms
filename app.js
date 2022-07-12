@@ -43,8 +43,20 @@ if (((number2 / 2) == number1) || ((number1 / 5) == number3)) {
 }
 
 // Ejercicio 6 Bucles
+
+//1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
 for (let p = 0; p < 10; p++) {
     console.log(p)
 }
 
-    //1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
+
+
+//1.2  Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
+//cuando el resto del numero dividido entre 2 sea 0.
+
+for (let p = 0; p < 10; p++) {
+    if (p % 2 == 0) {
+        console.log(p)
+    }
+}
+
