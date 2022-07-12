@@ -1,5 +1,5 @@
 
-//ejercicio 5
+//ejercicio 5 condicionales
 
 //
 const number1 = 10;
@@ -41,3 +41,10 @@ if (((number3 * 5) == number1) && ((number1 * 2) == number2)) {
 if (((number2 / 2) == number1) || ((number1 / 5) == number3)) {
     console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
+
+// Ejercicio 6 Bucles
+for (let p = 0; p < 10; p++) {
+    console.log(p)
+}
+
+    //1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
