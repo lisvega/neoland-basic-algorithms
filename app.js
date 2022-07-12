@@ -27,8 +27,12 @@ if (number3 != number1) {
     console.log("number3 es distinto number1");
 }
 // Iteración 5.4
-if (number3 * 5 == number1) {
+if ((number3 * 5) == number1) {
     console.log("number3 por 5 es igual a number1");
 }
 
 // Iteración 5.5
+
+if (((number3 * 5) == number1) && ((number1 * 2) == number2)) {
+    console.log("number3 por 5 es igual a number1 Y number1 por 2 es igual a number2");
+}
