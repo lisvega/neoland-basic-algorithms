@@ -76,12 +76,13 @@ const car2 = {
 //-------------Iteración #3: Operadores-------------------
 
 //1.1 Multiplica 10 por 5 y muestra el resultado mediante console.
-
 let Multiplicación = 10 * 5;
 console.log(Multiplicación);
 
 
-
+//1.2 Divide 10 por 2 y muestra el resultado en un console.
+let división = 10 / 2;
+console.log(división);
 
 
 
