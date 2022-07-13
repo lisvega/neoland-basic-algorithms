@@ -1,15 +1,9 @@
 
 // 1.1 Crea una variable llamada myFavoriteHero, asigna el valor Hulk a ella.
-
-
 let myFavoriteHero = "Hulk";
 
 
-let z = "x + 5";
-
-
 //1.2 Crea una variable llamada x, asigna el valor 50 a ella.
-
 let x = "50";
 
 
@@ -17,9 +11,8 @@ let x = "50";
 let H = "5";
 let Y = "10";
 
-
-
-
+//1.4 Crea una otra variable 'z' y asignale el valor de 'h' + 'y'.
+let z = "x + 5";
 
 
 
