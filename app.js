@@ -102,9 +102,14 @@ console.log(p + j);
 
 
 
+/*1.5 Usa el correcto operador de asignación que resultará en i = 50,
+teniendo dos variables c = 10 y m = 5.*/
 
 
-
+let c = 10;
+let m = 5;
+let i = c * m;
+console.log(c * m);
 
 
 
