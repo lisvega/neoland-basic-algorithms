@@ -5,8 +5,6 @@
 let myFavoriteHero = "Hulk";
 
 
-let H = "5";
-let Y = "10";
 let z = "x + 5";
 
 
@@ -15,9 +13,9 @@ let z = "x + 5";
 let x = "50";
 
 
-
-
-
+//1.3 Crea una variable llamada 'h' con el valor 5 y otra 'y' con el valor 10. 
+let H = "5";
+let Y = "10";
 
 
 
