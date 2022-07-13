@@ -92,6 +92,14 @@ let resto = 15 % 9;
 console.log(resto);
 
 
+/*1.4 Usa el correcto operador de asignación que resultará en o = 15, 
+teniendo dos variables
+p = 10 y j = 5.*/
+let p = 10;
+let j = 5;
+let o = p + j;
+console.log(p + j);
+
 
 
 
