@@ -87,7 +87,9 @@ console.log(división);
 
 
 
-
+//1.3 Muestra mediante un console el resto de dividir 15 por 9.
+let resto = 15 % 9;
+console.log(resto);
 
 
 
