@@ -4,13 +4,15 @@
 
 let myFavoriteHero = "Hulk";
 
-let x = "50";
+
 let H = "5";
 let Y = "10";
 let z = "x + 5";
 
 
+//1.2 Crea una variable llamada x, asigna el valor 50 a ella.
 
+let x = "50";
 
 
 
