@@ -1,4 +1,58 @@
 
+// 1.1 Crea una variable llamada myFavoriteHero, asigna el valor Hulk a ella.
+
+
+let myFavoriteHero = "Hulk";
+
+let x = "50";
+let H = "5";
+let Y = "10";
+let z = "x + 5";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //ejercicio 5 condicionales
 
 //
@@ -59,4 +113,23 @@ for (let p = 0; p < 10; p++) {
         console.log(p)
     }
 }
+
+
+/*1.3 Crea un bucle para conseguir dormir contando ovejas. 
+Este bucle empieza en 0 y termina en 10. 
+Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle 
+y cambia el mensaje en la última vuelta a 'Dormido!'.*/
+
+for (let p = 0; p < 10; p++) {
+    if (p < 9) {
+        console.log("intentando dormir");
+
+
+    }
+    else {
+        console.log("Dormido");
+    }
+
+}
+
 
