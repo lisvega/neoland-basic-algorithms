@@ -1,5 +1,5 @@
 
-//---------------Iteración #1: Variables-----------------
+//---------------Iteración #1: Variables---------------------------------------------------------------------------------------------
 // 1.1 Crea una variable llamada myFavoriteHero, asigna el valor Hulk a ella.
 let myFavoriteHero = "Hulk";
 
@@ -16,7 +16,7 @@ let Y = "10";
 let z = "x + 5";
 
 
-//-------------Iteración #2: Variables avanzadas-------------
+//-------------Iteración #2: Variables avanzadas-----------------------------------------------------------------------------------
 
 /*1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
 const character = {name: 'Jack Sparrow', age: 10};*/
@@ -58,22 +58,37 @@ console.log("total price", toy1.price + toy2.price);
 /*1.4 Dado el siguiente javascript, actualiza el valor de la variable globalBasePrice a 25000 
 y actualiza la propiedad finalPrice de todos los coches con el valor de su propiedad 
 basePrice más el valor de la variable globalBasePrice.*/
+
+
+
 let globalBasePrice = 10000;
 const car1 = {
     name: 'BMW m&m',
     basePrice: 50000,
     finalPrice: 60000
 };
-
 const car2 = {
     name: 'Chevrolet Corbina',
     basePrice: 70000,
     finalPrice: 80000
 };
+console.log(car1);
+console.log(car2);
+//-------------------------------
+
+globalBasePrice = 25000;
+
+car1.finalPrice = car1.basePrice + globalBasePrice;
+console.log("MODIFICADO", car1);
+car2.finalPrice = car2.basePrice + globalBasePrice;
+console.log("MODIFICADO", car2);
 
 
 
-//-------------Iteración #3: Operadores-------------------
+
+
+
+//-------------Iteración #3: Operadores--------------------------------------------------------------
 
 //1.1 Multiplica 10 por 5 y muestra el resultado mediante console.
 let Multiplicación = 10 * 5;
