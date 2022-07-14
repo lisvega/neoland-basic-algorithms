@@ -12,7 +12,7 @@
 
 
 
--------------Iteración #2: Variables avanzadas-------------
+-------------**Iteración #2: Variables avanzadas**-------------
 
 1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
 const character = {name: 'Jack Sparrow', age: 10};
@@ -42,7 +42,7 @@ const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 
 
 
---------------------------Iteración #3: Operadores---------------------
+--------------------------**Iteración #3: Operadores**---------------------
 
 1.1 Multiplica 10 por 5 y muestra el resultado mediante console.
 
@@ -60,8 +60,27 @@ teniendo dos variables c = 10 y m = 5.
 
 
 
+**Iteración #4: Arrays**
+1.1 Consigue el valor "HULK" del array de avengers y muestralo por consola.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
+1.2 Cambia el primer elemento de avengers a "IRONMAN"
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 
+1.3 console numero de elementos en el array usando la propiedad correcta de Array.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+1.4 Añade 2 elementos al array: "Morty" y "Summer". 
+Muestra en consola el último personaje del array
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
+
+//TODAVIA NO
+1.5 Elimina el último elemento del array y muestra el primero y el último por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
+
+// TODAVIA NO
+1.6 Elimina el segundo elemento del array y muestra el array por consola.
+const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
 
 

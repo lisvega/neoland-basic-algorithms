@@ -1,5 +1,5 @@
 
-//---------------Iteración #1: Variables---------------------------------------------------------------------------------------------
+//--------------------------------------Iteración #1: Variables---------------------------------------------------------------------------------------------
 // 1.1 Crea una variable llamada myFavoriteHero, asigna el valor Hulk a ella.
 let myFavoriteHero = "Hulk";
 
@@ -16,7 +16,7 @@ let Y = "10";
 let z = "x + 5";
 
 
-//-------------Iteración #2: Variables avanzadas-----------------------------------------------------------------------------------
+//------------------------------Iteración #2: Variables avanzadas-----------------------------------------------------------------------------------
 
 /*1.1 Dado el siguiente javascript, cambia el valor de la propiedad age a 25.
 const character = {name: 'Jack Sparrow', age: 10};*/
@@ -88,7 +88,7 @@ console.log("MODIFICADO", car2);
 
 
 
-//-------------Iteración #3: Operadores--------------------------------------------------------------
+//--------------------------------------Iteración #3: Operadores--------------------------------------------------------------
 
 //1.1 Multiplica 10 por 5 y muestra el resultado mediante console.
 let Multiplicación = 10 * 5;
@@ -128,8 +128,22 @@ console.log(c * m);
 
 
 
+//-------------------------------------**Iteración #4: Arrays**------------------------------------------
 
-//ejercicio 5 condicionales
+//1.1 Consigue el valor "HULK" del array de avengers y muestralo por consola.
+const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+const nameAvenger = avengers[0];
+console.log(nameAvenger);
+
+
+
+
+
+
+
+
+
+//-----------------------------------------------ejercicio 5 condicionales---------------------------------------------------
 
 //
 const number1 = 10;
@@ -146,33 +160,48 @@ if (number1 === 10) {
 if (number2 / number1 == 2) {
     console.log("number2 dividido entre number1 es igual a 2");
 }
-//Iteracion 5.2
+//(/* COMPLETAR */)
 
+
+
+//Iteracion 5.2
 if (number1 !== number2) {
     console.log("number1 es estrictamente distinto a number2");
 }
-// Iteracion 5.3
+//(/* COMPLETAR */)
 
+
+// Iteracion 5.3
 if (number3 != number1) {
     console.log("number3 es distinto number1");
 }
+//(/* COMPLETAR */)
+
+
+
 // Iteración 5.4
 if ((number3 * 5) == number1) {
     console.log("number3 por 5 es igual a number1");
 }
+//(/* COMPLETAR */)
+
 
 // Iteración 5.5
-
 if (((number3 * 5) == number1) && ((number1 * 2) == number2)) {
     console.log("number3 por 5 es igual a number1 Y number1 por 2 es igual a number2");
 }
+//(/* COMPLETAR */)
+
 
 // Iteracion 5.6
 if (((number2 / 2) == number1) || ((number1 / 5) == number3)) {
     console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
+//(/* COMPLETAR */)
 
-// Ejercicio 6 Bucles
+
+
+//----------------------------------- Ejercicio 6 Bucles------------------------------------------------------------
 
 //1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
 for (let p = 0; p < 10; p++) {
