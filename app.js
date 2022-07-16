@@ -158,3 +158,14 @@ const rickAndMortyCharacters2 = ["Rick", "Beth", "Jerry", "Morty", "Summer", "La
 rickAndMortyCharacters2.splice(1, 1);
 console.log(rickAndMortyCharacters2);
 
+
+//-----------------------------------*ejercicio #5 condicionales*----------------------------//
+
+const number1 = 10;
+const number2 = 20;
+const number3 = 2;
+
+// ejemplo
+if (number1 === 10) {
+    console.log('number1 es estrictamente igual a 10')
+}
