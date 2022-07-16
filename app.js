@@ -130,3 +130,11 @@ console.log(nameAvenger);
 avengers[0] = "Ironman";
 console.log(avengers);
 
+
+//1.3 console numero de elementos en el array usando la propiedad correcta de Array.
+const avengers1 = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
+
+console.log(avengers1[0]);
+console.log(avengers1[1]);
+console.log(avengers1[2]);
+
