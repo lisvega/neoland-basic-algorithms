@@ -170,7 +170,13 @@ if (number1 === 10) {
     console.log('number1 es estrictamente igual a 10')
 }
 
-
+//1.2
 if (number2 / number1 == 2) {
     console.log("number2 dividido entre number1 es igual a 2");
 }
+
+//1.3
+if (number1 !== number2) {
+    console.log("number1 es estrictamente distinto a number2");
+}
+
