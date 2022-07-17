@@ -185,3 +185,8 @@ if (number1 !== number2) {
 if (number3 != number1) {
     console.log("number3 es distinto number1");
 }
+
+//1.5
+if ((number3 * 5) == number1) {
+    console.log("number3 por 5 es igual a number1");
+}
