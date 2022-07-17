@@ -209,3 +209,14 @@ if (((number2 / 2) == number1) || ((number1 / 5) == number3)) {
 for (let p = 0; p < 10; p++) {
     console.log(p)
 }
+
+//1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo 
+//cuando el resto del numero dividido entre 2 sea 0.
+
+
+//1.3
+for (let x = 0; x < 10; x++) {
+    if (x % 2 == 0) {
+        console.log(x);
+    }
+}
